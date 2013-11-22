@@ -9,7 +9,7 @@
 require_once('../../../../../wp-config.php');
 //require_once('../../../../wp-includes/wp-db.php');
 
-$sql = 'SELECT * FROM '.TMTMEMBERS_DB_TABLE;
+$sql = 'SELECT * FROM wp_users';
     $qr=mysql_query($sql);
     while($rs=mysql_fetch_array($qr)){
 	$json_data[]=array(
