@@ -25,12 +25,12 @@ function ui_admin_chkuser_login(){
 	
 	$url_chkusr = get_bloginfo('template_url');
 ?>
-	<script src="<?php echo $url ?>/TMT.ChkUser/js/jquery-2.0.3.js"></script>
+	<script src="<?php echo $url_chkusr ?>/TMT.ChkUser/js/jquery-2.0.3.js"></script>
 	<script type="text/javascript">
 		var url_select_all_chkusr = '<?php echo $url_chkusr ?>/TMT.ChkUser/service/service_sql_select_all.php';
 		var url_insert_chkusr = '<?php echo $url_chkusr ?>/TMT.ChkUser/service/service_sql_insert.php';
 	</script>
-	<script src="<?php echo $url ?>/TMT.ChkUser/js/ui_admin-chkuser-login.js"></script>
+	<script src="<?php echo $url_chkusr ?>/TMT.ChkUser/js/ui_admin-chkuser-login.js"></script>
 	
 <?php
 }

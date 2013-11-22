@@ -1,6 +1,6 @@
 <?php
-include_once 'TMT.MultiLang-FIX/TMT.MultiLang-FIX.php';
-include_once 'TMT.Members/TMT.Members.php';
+//include_once 'TMT.MultiLang-FIX/TMT.MultiLang-FIX.php';
+//include_once 'TMT.Members/TMT.Members.php';
 include_once 'TMT.ChkUser/TMT.ChkUser.php';
 
 /**

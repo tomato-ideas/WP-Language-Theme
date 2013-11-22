@@ -23,7 +23,6 @@ $(document).ready(function($) {
 	
 		$('#wp-submit').mousedown(function(){
 			var user_login = $('#user_login').val();
-
 			total = data;
 			for (var i = 0; i < total.length; i++) {
 				if(data[i].userLogin == user_login){
@@ -54,9 +53,11 @@ $(document).ready(function($) {
 /*//////////////////////////////////////
 
 	$('.ab-item').mousedown(function(){
+	//console.log('lg');
 		var userId = $('#chkuser').val();
 		var userStatus = 'logout';
 		$.ajax({
+			//url: '',
 			url: url_insert_chkusr,
 			type: "POST",
 			data: { user_id: userId, user_status: userStatus }
